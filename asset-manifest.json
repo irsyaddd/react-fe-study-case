@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-fe-study-case/static/css/main.29a9f0a4.css",
+    "main.js": "/react-fe-study-case/static/js/main.aba28d90.js",
+    "static/js/787.b040db68.chunk.js": "/react-fe-study-case/static/js/787.b040db68.chunk.js",
+    "static/media/logo.svg": "/react-fe-study-case/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/react-fe-study-case/index.html",
+    "main.29a9f0a4.css.map": "/react-fe-study-case/static/css/main.29a9f0a4.css.map",
+    "main.aba28d90.js.map": "/react-fe-study-case/static/js/main.aba28d90.js.map",
+    "787.b040db68.chunk.js.map": "/react-fe-study-case/static/js/787.b040db68.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.29a9f0a4.css",
+    "static/js/main.aba28d90.js"
+  ]
+}
