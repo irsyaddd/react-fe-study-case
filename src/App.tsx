@@ -15,8 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          YUK BISA YUK KAMU HARUS MANDIRI UNTUK MASA DEPAN YANG LEBIH BAIK
-          MANTAP JAYA
+          Learn React
         </a>
       </header>
     </div>
