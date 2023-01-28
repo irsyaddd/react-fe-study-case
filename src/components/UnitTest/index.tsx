@@ -1,5 +1,6 @@
 import { Images } from "../../assets";
-import { REACT_PROJECT_STRUCTURE, UNIT_TEST } from "../../data";
+import { UNIT_TEST } from "../../data";
+import ButtonWithCounter from "../ButtonWithCounter";
 import HeaderAndDescription from "../HeaderAndDescription";
 
 export default function UnitTest() {
@@ -33,9 +34,9 @@ export default function UnitTest() {
       </p>
       <p>
         In this testing scenario, I created a simple counter to increase and
-        decrease a counter as you can see down below
+        decrease a counter as you can see down below.
       </p>
-      <div className="bg-yellow-100 h-20 my-4 rounded-lg" />
+      <ButtonWithCounter />
       <p className="mb-4">
         The important thing in unit test to write <code>data-testid</code> in
         order to select element for unit testing.
@@ -97,7 +98,7 @@ export default function UnitTest() {
             >
               {item.label}{" "}
               <span>
-                <img src={Images.linkArrow} alt="arrow-image" />
+                <img src={Images.linkArrow} alt="arrow" />
               </span>
             </a>
           </li>

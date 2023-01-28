@@ -22,5 +22,11 @@
   },
   "include": [
     "src"
-  ]
+  ],
+  "exclude": [
+    "node_modules",
+    "public_html",
+    "**/*.spec.ts",
+    "**/*.test.ts",
+ ]
 }
