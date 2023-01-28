@@ -5,7 +5,7 @@ export default function ButtonWithCounter() {
   const [counter, setCounter] = useState(0);
 
   return (
-    <div className="bg-[#262d36] rounded-md flex items-center justify-center gap-4 p-6 my-4 border border-slate-700">
+    <div className="bg-element">
       <div className="h-auto flex items-start justify-center w-2/3 gap-4">
         <Button
           testId="increment"

@@ -14,7 +14,14 @@ export default function ReactProjectStructure() {
         title={REACT_PROJECT_STRUCTURE.TITLE}
         description={REACT_PROJECT_STRUCTURE.DESCRIPTION}
       />
-      <div className="bg-yellow-100 h-20 my-4 rounded-lg" />
+      <div className="bg-element">
+        <img
+          src={Images.folderImage}
+          alt="folderimg"
+          className="w-72 rounded-md shadow-lg"
+        />
+      </div>
+
       <Section title="Assets Folder">
         This folder contains all assets of a react project such as image, icon,
         fonts, etc. We can also store a global style CSS folder in here but
@@ -50,6 +57,8 @@ export default function ReactProjectStructure() {
           <li key={item.id}>
             <a
               href={item.URL}
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-sm italic flex hover:text-[#adbac7] text-[#6f6f6f]"
             >
               {item.label}{" "}

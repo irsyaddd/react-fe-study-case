@@ -50,7 +50,13 @@ export default function UnitTest() {
           <li key={item.id}>{item.STRUCTURE}</li>
         ))}
       </ul>
-      <div className="bg-yellow-100 h-20 my-4 rounded-lg" />
+      <div className="bg-element">
+        <img
+          src={Images.testImage}
+          alt="testimage"
+          className="rounded-md shadow-lg"
+        />
+      </div>
       <p>
         To let Jest know the test file, its important to use extension{" "}
         <code>.test.tsx</code>
@@ -85,8 +91,14 @@ export default function UnitTest() {
         Then run <code>npm run test</code> to run the test file
       </p>
       <div className="mt-4">
-        <p>Test Result</p>
-        <div className="bg-yellow-100 h-20 my-4 rounded-lg" />
+        <p>Test Result:</p>
+        <div className="bg-element">
+          <img
+            src={Images.passTestImage}
+            alt="pass"
+            className="rounded-md shadow-lg"
+          />
+        </div>
       </div>
       <p className="text-sm font-bold">Source:</p>
       <ul className="inline-block mt-3">
@@ -94,6 +106,8 @@ export default function UnitTest() {
           <li key={item.id}>
             <a
               href={item.URL}
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-sm italic flex hover:text-[#adbac7] text-[#6f6f6f]"
             >
               {item.label}{" "}
