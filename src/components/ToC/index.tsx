@@ -4,14 +4,14 @@ import { TASK_LIST } from "../../data";
 
 export default function TableOfContents() {
   const [isHovering, setIsHovering] = useState(false);
-  const [active, setActive] = useState("react-project-structure");
+  const [active, setActive] = useState("");
   const handleScroll = useCallback((elementId: string) => {
     const element = document.getElementById(elementId);
     if (element) element.scrollIntoView({ block: "start", behavior: "smooth" });
   }, []);
 
   return (
-    <div className="w-1/4 sticky-toc">
+    <div className="w-1/4 sticky-toc hidden lg:block">
       <h4 className="font-bold">Contents</h4>
       <nav>
         <ul className="space-y-3">

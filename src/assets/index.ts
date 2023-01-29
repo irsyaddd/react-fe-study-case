@@ -6,6 +6,10 @@ export const Images = {
   testImage2: require("./images/test-2.png"),
   passTestImage: require("./images/pass-test.png"),
   repoImage: require("./images/repo.png"),
+  repoMobileImage: require("./images/repo-mobile.png"),
   actionsImage: require("./images/github-actions.png"),
+  actionsMobileImage: require("./images/github-actions-mobile.png"),
   workflowsImage: require("./images/workflows.png"),
+  triggerImage: require("./images/trigger.png"),
+  logsImage: require("./images/logs.png"),
 };

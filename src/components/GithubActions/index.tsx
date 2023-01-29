@@ -17,9 +17,19 @@ export default function GithubActions() {
           project i will also use it to demonstrate my CI/CD Pipeline using
           Github Actions
         </Section>
-        <div className="bg-element mt-6">
+        <div className="bg-element mt-6 p-6 hidden md:block">
           <img
             src={Images.repoImage}
+            alt="testimage"
+            className="rounded-md shadow-lg"
+          />
+        </div>
+        <div
+          className="bg-element mt-6 p-6 md:hidden
+        "
+        >
+          <img
+            src={Images.repoMobileImage}
             alt="testimage"
             className="rounded-md shadow-lg"
           />
@@ -35,9 +45,16 @@ export default function GithubActions() {
           . You can made a new workflow by clicking{" "}
           <code className="bg-element px-2 py-px inline"> New workflow</code>{" "}
           button
-          <div className="bg-element my-6">
+          <div className="bg-element my-6 p-6 hidden md:block">
             <img
               src={Images.actionsImage}
+              alt="testimage"
+              className="rounded-md shadow-lg"
+            />
+          </div>
+          <div className="bg-element my-6 p-6 md:hidden">
+            <img
+              src={Images.actionsMobileImage}
               alt="testimage"
               className="rounded-md shadow-lg"
             />
@@ -51,7 +68,7 @@ export default function GithubActions() {
           Luckily there is already a workflow template on Github Marketplace so
           i can copy a block of code i need to deploy my code to my Github Pages
         </Section>
-        <div className="bg-element mt-6">
+        <div className="bg-element p-6 mt-6">
           <img
             src={Images.workflowsImage}
             alt="testimage"
@@ -61,23 +78,31 @@ export default function GithubActions() {
       </div>
       <div className="pb-4">
         <Section title="Make changes to the code to trigger the CI/CD Pipeline.">
-          The reason why im creating my answer in a form of webpage is to also
-          show my implementation related to the tasks given to me and with this
-          project i will also use it to demonstrate my CI/CD Pipeline using
-          Github Actions.
+          After we change some code on our local, we push it to the repo and on
+          every push to{" "}
+          <code className="bg-element px-2 py-px inline">master</code>, It will
+          trigger the CI/CD Pipeline to run the workflow made earlier. We can
+          see the status on{" "}
+          <code className="bg-element px-2 py-px inline">Actions</code> menu
         </Section>
-        <div className="bg-element mt-6"></div>
+        <div className="bg-element p-3 md:p-6 mt-6">
+          <img
+            src={Images.triggerImage}
+            alt="testimage"
+            className="rounded-md shadow-lg my-4"
+          />
+        </div>
       </div>
       <div className="pb-4">
         <Section title="See Live logs at Repository to see the CI/CD Running">
-          The reason why im creating my answer in a form of webpage is to also
-          show my implementation related to the tasks given to me and with this
-          project i will also use it to demonstrate my CI/CD Pipeline using
-          Github Actions
+          After waiting for a while, the Actions will have a result and its
+          either success or failed, as you can see down below, there was some my
+          failed attempt when setting up this CI/CD Pipeline. Dont worry if
+          you'll get confused because the error itself will show on logs detail
         </Section>
-        <div className="bg-element mt-6">
+        <div className="bg-element p-3 mt-6">
           <img
-            src={Images.workflowsImage}
+            src={Images.logsImage}
             alt="testimage"
             className="rounded-md shadow-lg"
           />

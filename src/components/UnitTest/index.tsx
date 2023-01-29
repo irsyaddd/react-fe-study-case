@@ -45,16 +45,16 @@ export default function UnitTest() {
           <li key={item.id}>{item.STRUCTURE}</li>
         ))}
       </ul>
-      <div className="bg-element flex-col">
+      <div className="bg-element flex-col p-4">
         <img
           src={Images.testImage1}
           alt="testimage"
-          className="rounded-md shadow-lg scale-90"
+          className="rounded-md shadow-lg w-[32rem] lg:w-[38rem]"
         />
         <img
           src={Images.testImage2}
           alt="testimage"
-          className="rounded-md shadow-lg scale-90"
+          className="rounded-md shadow-lg w-[32rem] lg:w-[38rem]"
         />
       </div>
       <p>
@@ -96,11 +96,11 @@ export default function UnitTest() {
       </p>
       <div className="mt-4">
         <p>Test Result:</p>
-        <div className="bg-element">
+        <div className="bg-element p-6">
           <img
             src={Images.passTestImage}
             alt="pass"
-            className="rounded-md shadow-lg"
+            className="rounded-md shadow-lg w-[32rem]"
           />
         </div>
       </div>

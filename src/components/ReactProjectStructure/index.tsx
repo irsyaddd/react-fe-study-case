@@ -10,7 +10,7 @@ export default function ReactProjectStructure() {
         title={REACT_PROJECT_STRUCTURE.TITLE}
         description={REACT_PROJECT_STRUCTURE.DESCRIPTION}
       />
-      <div className="bg-element mt-8">
+      <div className="bg-element mt-8 p-6">
         <img
           src={Images.folderImage}
           alt="folderimg"
