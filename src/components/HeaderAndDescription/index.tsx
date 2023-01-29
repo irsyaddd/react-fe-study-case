@@ -6,7 +6,7 @@ interface HeaderAndDescriptionProps {
 export default function HeaderAndDescription(props: HeaderAndDescriptionProps) {
   return (
     <>
-      <h3 className="text-2xl font-bold text-white-primary mb-2">
+      <h3 className="text-3xl font-bold text-white-primary mb-2">
         {props.title}
       </h3>
       <p>{props.description}</p>

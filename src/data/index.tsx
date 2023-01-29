@@ -48,7 +48,7 @@ export const REACT_PROJECT_STRUCTURE = {
 };
 
 export const UNIT_TEST = {
-  TITLE: "Unit Test",
+  TITLE: "Unit Test with Jest & React Testing Library",
   DESCRIPTION:
     "Unit testing is a method that test individual React Component to check if the component is working as expected. The core benefits of unit testing are:",
   UT_BENEFITS: [
@@ -109,19 +109,37 @@ export const UNIT_TEST = {
   ],
 };
 
+export const CI_CD = {
+  TITLE: "CI/CD Pipeline using Github Actions.",
+  DESCRIPTION:
+    "This react app project is simply a github pages containing my answer to the study case. In the repository there is actually a setting to setup a github pages. But it also can be done manualy. In this case i will try to make an implement of CI/CD Pipeline using Github Actions to build and test every push and deploy it automatically to Github Pages.",
+  SOURCE: [
+    {
+      id: "1",
+      label: "Dev.to: Setting up a CI/CD Workflow",
+      URL: "https://www.browserstack.com/guide/unit-testing-of-react-apps-using-jest",
+    },
+    {
+      id: "2",
+      label: "Github Blog: Build CI/CD Pipeline Github Actions",
+      URL: "https://github.blog/2022-02-02-build-ci-cd-pipeline-github-actions-four-steps/",
+    },
+  ],
+};
+
 export const TASK_LIST = [
   {
-    id: "react-project-structure",
+    id: "1",
     question: "React Project Structure Fundamental",
     scrollTo: "react-project-structure",
   },
   {
-    id: "unit-test",
+    id: "2",
     question: "Unit testing with Jest & React Testing Library.",
     scrollTo: "unit-test",
   },
   {
-    id: "ci-cd",
+    id: "3",
     question: "CI/CD on Github using Github action.",
     scrollTo: "ci-cd",
   },
