@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/react-fe-study-case/static/css/main.e9f87596.css",
-    "main.js": "/react-fe-study-case/static/js/main.65da1c6e.js",
-    "static/media/test.png": "/react-fe-study-case/static/media/test.95b507858eb485e8164c.png",
+    "main.css": "/react-fe-study-case/static/css/main.e4f32286.css",
+    "main.js": "/react-fe-study-case/static/js/main.6dc633b5.js",
+    "static/media/repo.png": "/react-fe-study-case/static/media/repo.7559cd86e3c74e085d14.png",
+    "static/media/github-actions.png": "/react-fe-study-case/static/media/github-actions.135ec018b4f63daefa49.png",
+    "static/media/test-1.png": "/react-fe-study-case/static/media/test-1.4c926c188b9b6d57f5f3.png",
+    "static/media/test-2.png": "/react-fe-study-case/static/media/test-2.38898237f4d8e1956f9d.png",
     "static/media/folder.png": "/react-fe-study-case/static/media/folder.9ad0ae2eb42c8295590c.png",
     "static/media/pass-test.png": "/react-fe-study-case/static/media/pass-test.7b0245c246756355fef0.png",
+    "static/media/workflows.png": "/react-fe-study-case/static/media/workflows.f3ff903ae9220d8174e6.png",
     "index.html": "/react-fe-study-case/index.html",
-    "main.e9f87596.css.map": "/react-fe-study-case/static/css/main.e9f87596.css.map",
-    "main.65da1c6e.js.map": "/react-fe-study-case/static/js/main.65da1c6e.js.map"
+    "main.e4f32286.css.map": "/react-fe-study-case/static/css/main.e4f32286.css.map",
+    "main.6dc633b5.js.map": "/react-fe-study-case/static/js/main.6dc633b5.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9f87596.css",
-    "static/js/main.65da1c6e.js"
+    "static/css/main.e4f32286.css",
+    "static/js/main.6dc633b5.js"
   ]
 }
