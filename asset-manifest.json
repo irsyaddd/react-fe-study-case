@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-fe-study-case/static/css/main.e6981f40.css",
-    "main.js": "/react-fe-study-case/static/js/main.e5ce1c56.js",
+    "main.css": "/react-fe-study-case/static/css/main.e9f87596.css",
+    "main.js": "/react-fe-study-case/static/js/main.65da1c6e.js",
     "static/media/test.png": "/react-fe-study-case/static/media/test.95b507858eb485e8164c.png",
     "static/media/folder.png": "/react-fe-study-case/static/media/folder.9ad0ae2eb42c8295590c.png",
     "static/media/pass-test.png": "/react-fe-study-case/static/media/pass-test.7b0245c246756355fef0.png",
     "index.html": "/react-fe-study-case/index.html",
-    "main.e6981f40.css.map": "/react-fe-study-case/static/css/main.e6981f40.css.map",
-    "main.e5ce1c56.js.map": "/react-fe-study-case/static/js/main.e5ce1c56.js.map"
+    "main.e9f87596.css.map": "/react-fe-study-case/static/css/main.e9f87596.css.map",
+    "main.65da1c6e.js.map": "/react-fe-study-case/static/js/main.65da1c6e.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6981f40.css",
-    "static/js/main.e5ce1c56.js"
+    "static/css/main.e9f87596.css",
+    "static/js/main.65da1c6e.js"
   ]
 }
