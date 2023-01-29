@@ -111,17 +111,17 @@ export const UNIT_TEST = {
 
 export const TASK_LIST = [
   {
-    id: 1,
+    id: "react-project-structure",
     question: "React Project Structure Fundamental",
     scrollTo: "react-project-structure",
   },
   {
-    id: 2,
+    id: "unit-test",
     question: "Unit testing with Jest & React Testing Library.",
     scrollTo: "unit-test",
   },
   {
-    id: 3,
+    id: "ci-cd",
     question: "CI/CD on Github using Github action.",
     scrollTo: "ci-cd",
   },

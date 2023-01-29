@@ -1,10 +1,10 @@
-import { useCallback, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { Images } from "../../assets";
 import { TASK_LIST } from "../../data";
 
 export default function TableOfContents() {
   const [isHovering, setIsHovering] = useState(false);
-  const [active, setActive] = useState(1);
+  const [active, setActive] = useState("react-project-structure");
   const handleScroll = useCallback((elementId: string) => {
     const element = document.getElementById(elementId);
     if (element) element.scrollIntoView({ block: "start", behavior: "smooth" });
@@ -42,12 +42,9 @@ export default function TableOfContents() {
               Github Repository
               <span>
                 {isHovering ? (
-                  <img src={Images.linkArrow} alt="arrow-image" />
+                  <img src={Images.linkArrow} alt="" />
                 ) : (
-                  <img
-                    src={Images.linkArrowDefault}
-                    alt="arrow-image-default"
-                  />
+                  <img src={Images.linkArrowDefault} alt="" />
                 )}
               </span>
             </a>

@@ -63,7 +63,7 @@ export default function ReactProjectStructure() {
             >
               {item.label}{" "}
               <span>
-                <img src={Images.linkArrow} alt="arrow-image" />
+                <img src={Images.linkArrow} alt="" />
               </span>
             </a>
           </li>
