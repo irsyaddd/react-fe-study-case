@@ -39,8 +39,8 @@ export default function UnitTest() {
       <ButtonWithCounter />
       <p className="mb-4">
         The important thing in unit test to write{" "}
-        <code className="bg-element px-2 py-px inline-block">data-testid</code>{" "}
-        in order to select element for unit testing.
+        <code className="bg-element px-2 py-px inline">data-testid</code> in
+        order to select element for unit testing.
       </p>
       <p>
         After that, we write a test file for component the component we want to
