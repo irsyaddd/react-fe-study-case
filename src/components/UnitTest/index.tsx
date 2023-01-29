@@ -38,8 +38,9 @@ export default function UnitTest() {
       </p>
       <ButtonWithCounter />
       <p className="mb-4">
-        The important thing in unit test to write <code>data-testid</code> in
-        order to select element for unit testing.
+        The important thing in unit test to write{" "}
+        <code className="bg-element px-2 py-px inline-block">data-testid</code>{" "}
+        in order to select element for unit testing.
       </p>
       <p>
         After that, we write a test file for component the component we want to
@@ -59,15 +60,17 @@ export default function UnitTest() {
       </div>
       <p>
         To let Jest know the test file, its important to use extension{" "}
-        <code>.test.tsx</code>
+        <code className="bg-element px-2 py-px inline-block">.test.tsx</code>
       </p>
       <div className="mt-4">
         <p>What the test does is as described down below</p>
         <ul style={{ listStyleType: "disc" }} className="pl-5 my-4">
           <li>
-            The test block can be written either using <code> test()</code> or{" "}
-            <code>it()</code>. These functions takes two parameters, The test
-            name and the callback functions which describes actual test
+            The test block can be written either using{" "}
+            <code className="bg-element px-2 py-px inline-block"> test()</code>{" "}
+            or <code className="bg-element px-2 py-px inline-block">it()</code>.
+            These functions takes two parameters, The test name and the callback
+            functions which describes actual test
           </li>
           <li>
             Using the render() method from the react testing library in the
@@ -88,7 +91,9 @@ export default function UnitTest() {
         </ul>
       </div>
       <p>
-        Then run <code>npm run test</code> to run the test file
+        Then run{" "}
+        <code className="bg-element px-2 py-px inline-block">npm run test</code>{" "}
+        to run the test file
       </p>
       <div className="mt-4">
         <p>Test Result:</p>
