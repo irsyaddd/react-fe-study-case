@@ -4,7 +4,7 @@ import { TASK_LIST } from "../../data";
 
 export default function TableOfContents() {
   const [isHovering, setIsHovering] = useState(false);
-  const [active, setActive] = useState("");
+  const [active, setActive] = useState("1");
   const handleScroll = useCallback((elementId: string) => {
     const element = document.getElementById(elementId);
     if (element) element.scrollIntoView({ block: "start", behavior: "smooth" });
