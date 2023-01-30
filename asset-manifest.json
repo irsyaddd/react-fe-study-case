@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-fe-study-case/static/css/main.c27fc694.css",
-    "main.js": "/react-fe-study-case/static/js/main.968388a3.js",
+    "main.js": "/react-fe-study-case/static/js/main.62f36fdb.js",
     "static/media/repo.png": "/react-fe-study-case/static/media/repo.7559cd86e3c74e085d14.png",
     "static/media/github-actions.png": "/react-fe-study-case/static/media/github-actions.135ec018b4f63daefa49.png",
     "static/media/test-1.png": "/react-fe-study-case/static/media/test-1.4c926c188b9b6d57f5f3.png",
@@ -15,10 +15,10 @@
     "static/media/github-actions-mobile.png": "/react-fe-study-case/static/media/github-actions-mobile.a50d2147d8228743370b.png",
     "index.html": "/react-fe-study-case/index.html",
     "main.c27fc694.css.map": "/react-fe-study-case/static/css/main.c27fc694.css.map",
-    "main.968388a3.js.map": "/react-fe-study-case/static/js/main.968388a3.js.map"
+    "main.62f36fdb.js.map": "/react-fe-study-case/static/js/main.62f36fdb.js.map"
   },
   "entrypoints": [
     "static/css/main.c27fc694.css",
-    "static/js/main.968388a3.js"
+    "static/js/main.62f36fdb.js"
   ]
 }
